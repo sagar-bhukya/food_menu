@@ -26,7 +26,7 @@ htmlcov/
 *.log
 
 # Static files (managed by collectstatic)
-/static/
+static/
 
 # Media files (user uploads)
 /media/
