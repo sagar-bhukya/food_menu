@@ -1,0 +1,32 @@
+# Environment files (exclude sensitive database credentials)
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+.installed.cfg
+pip-freeze.lock
+pip-requirements.txt
+
+# Test coverage (optional)
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Static files (managed by collectstatic)
+/static/
+
+# Media files (user uploads)
+/media/
