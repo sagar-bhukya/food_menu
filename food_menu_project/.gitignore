@@ -1,32 +1,41 @@
-# Environment files (exclude sensitive database credentials)
+
+
+# PostgreSQL database files (not for version control)
+# Adjust the pattern as needed based on your PostgreSQL setup
+*.postgresql
+
+
+
+# Compiled Python bytecode
+*.pyc
+
+# Cache directories
+__pycache__/
+
+# User-specific configurations
 .env
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Local development database (if using SQLite)
+db.sqlite3
 
-# C extensions
-*.so
-
-# Distribution / packaging
-*.egg-info/
-dist/
-build/
-eggs/
-.installed.cfg
-pip-freeze.lock
-pip-requirements.txt
-
-# Test coverage (optional)
+# Test coverage reports
 .coverage
-htmlcov/
 
-# Logs
-*.log
+# Static files (usually handled by deployment pipeline)
+static/*
 
-# Static files (managed by collectstatic)
-static/
+# Django migrations (unless you need them for specific reasons)
+migrations/
 
-# Media files (user uploads)
-/media/
+# VS Code files
+.vscode/
+
+# IDE or OS specific (optional)
+Thumbs.db
+.DS_Store
+
+# Virtual environment
+vnv/
+
+# User-uploaded pictures (consider a media storage service for production)
+pictures/*
