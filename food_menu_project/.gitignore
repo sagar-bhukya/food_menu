@@ -22,7 +22,7 @@ db.sqlite3
 .coverage
 
 # Static files (usually handled by deployment pipeline)
-static/*
+# static/*
 
 # Django migrations (unless you need them for specific reasons)
 migrations/
